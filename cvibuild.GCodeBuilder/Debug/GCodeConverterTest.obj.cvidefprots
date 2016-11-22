@@ -1,0 +1,12 @@
+[main]
+Class="Function"
+Prototype="int main();"
+
+[relative_position]
+Class="Function"
+Prototype="void relative_position(double pre_array[10], double post_array[10], int length);"
+
+[absolute_position]
+Class="Function"
+Prototype="void absolute_position(double *pre_array, double *post_array, int length);"
+
