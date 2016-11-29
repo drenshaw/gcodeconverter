@@ -1,0 +1,24 @@
+[main]
+Class="Function"
+Prototype="int main();"
+
+[relative_position]
+Class="Function"
+Prototype="void relative_position(double (*array)[3], int length);"
+
+[absolute_position]
+Class="Function"
+Prototype="void absolute_position(double (*array)[3], int length);"
+
+[write_gcode]
+Class="Function"
+Prototype="void write_gcode(int coord_sys, double (*array)[3], int length);"
+
+[slice_counter]
+Class="Function"
+Prototype="int slice_counter(double (*array)[3], int length, double slice_size, double slice_level);"
+
+[z_slicer]
+Class="Function"
+Prototype="double *z_slicer(double (*array)[3], int length, double slice_size, double slice_level);"
+

@@ -1,0 +1,16 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[GenerateWaveform]
+Class="Function"
+Prototype="int GenerateWaveform(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[path]
+Class="Function"
+Prototype="int path(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[run]
+Class="Function"
+Prototype="int run(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+

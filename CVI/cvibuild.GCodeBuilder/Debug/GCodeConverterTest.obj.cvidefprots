@@ -1,0 +1,16 @@
+[main]
+Class="Function"
+Prototype="int main();"
+
+[relative_position]
+Class="Function"
+Prototype="void relative_position(double (*pre_array)[2], int length);"
+
+[absolute_position]
+Class="Function"
+Prototype="void absolute_position(double (*pre_array)[2], int length);"
+
+[write_gcode]
+Class="Function"
+Prototype="void write_gcode(int coord_sys, double (*array)[2], int length);"
+
